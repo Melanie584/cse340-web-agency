@@ -1,0 +1,25 @@
+{
+  "name": "cse340-web-agency",
+  "version": "1.0.0",
+  "description": "A full-stack web development agency and client management portal built with Node.js, Express, EJS, and PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melanie584/cse340-web-agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melanie584/cse340-web-agency/issues"
+  },
+  "homepage": "https://github.com/Melanie584/cse340-web-agency#readme",
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0"
+  }
+}
