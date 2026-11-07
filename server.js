@@ -1,4 +1,3 @@
-
 import express from 'express';
 import homeRoutes from './src/routes/homeRoutes.js';
 
@@ -8,6 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Configure EJS as our template engine
 app.set('view engine', 'ejs');
 app.set('views', './src/views');
+app.use(express.static('public'));
 
 // Use homepage routes
 app.use('/', homeRoutes);

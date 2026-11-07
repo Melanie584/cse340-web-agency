@@ -4,9 +4,9 @@
   "description": "A full-stack web development agency and client management portal built with Node.js, Express, EJS, and PostgreSQL",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "start": "node server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Melanie584/cse340-web-agency.git"
