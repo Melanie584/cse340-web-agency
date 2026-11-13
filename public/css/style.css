@@ -1,3 +1,47 @@
 body {
-    background-color: lightblue;
+    margin: 0;
+    background-color: #F5F3EE;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #19252A;
+    color: #F5F3EE;
+    width: 250px;
+    min-height: 100vh;
+}
+
+.page-layout {
+    display: flex;
+}
+
+main {
+    flex: 1;
+    padding: 80px;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    border-bottom: 1px solid #405056;
+    padding: 20px;
+}
+
+.nav-links a {
+    color: #F5F3EE;
+    text-decoration: none;
+}
+
+.nav-number {
+    color: #A5D7C4;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    max-width: 210px;
+    height: auto;
 }
